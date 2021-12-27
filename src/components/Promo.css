@@ -1,0 +1,22 @@
+.PromoContainer{
+    background-color: black;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 15px;
+
+}
+
+.PromoContainer p{
+   
+    color: #F3CAE4;
+    font-family: 'Roboto';
+    width: max-content;
+}

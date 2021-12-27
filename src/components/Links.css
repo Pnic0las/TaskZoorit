@@ -1,0 +1,45 @@
+.Title {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: xx-large;
+    padding-right: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+    .Title {
+      font-size: 10vw;
+    }
+  }
+
+.Name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .Container {
+    position: relative;
+    text-align: center;
+    font-family: 'Petit Formal Script';
+    color: white;
+    margin: 15px;
+  }
+
+  .Photo{
+    background-size: cover;
+    filter: brightness(90%);
+    max-width: 100%;
+    width: 350px;
+    transition: transform .2s;
+  }
+
+  .Photo:hover{
+    transform: scale(1.1);
+  }
+
+  .Categories {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      z-index: 10;
+  }

@@ -1,0 +1,62 @@
+.Favoris{
+    max-width: 200px;
+   
+}
+
+.FavName { 
+    font-family: 'Petit Formal Script';
+    font-size: x-large;
+    max-width: 100px;
+    padding-left: 15px;
+    
+  }
+
+  @media only screen and (max-width: 480px) {
+    .FavName {
+      font-size: 10vw;
+    }
+  }
+
+.FavContainer {
+    display: flex;
+    position: absolute;
+    width: 10%;
+    top: 0;
+    margin-left: 15px;
+}
+
+.CategoriesPost{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 10;
+}
+
+.PhotoPost{
+    object-fit:cover;
+    filter: brightness(90%);
+    max-width: 100%;
+    width: 350px;
+    height: 500px;
+    transition: transform .2s;
+}
+.Animation{
+  transition: transform .2s;
+
+}
+
+.Animation:hover{
+  transform: scale(1.1);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    flex-wrap: wrap;
+  }
+}

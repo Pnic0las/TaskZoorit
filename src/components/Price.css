@@ -1,0 +1,25 @@
+.ProductPrice{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: x-large;
+    margin: -50px;
+}
+
+.PriceContainer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: x-large;
+    flex-direction: column;
+}
+
+.OldPrice{
+    text-decoration: line-through;
+}
+
+.NewPrice{
+    color: #F3CAE4;
+    font-weight: bold;
+    margin-right: 8px;
+}
